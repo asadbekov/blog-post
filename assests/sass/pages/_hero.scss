@@ -1,0 +1,181 @@
+.hero {
+  .hero_link {
+    display: flex;
+    padding: 20px 251px;
+    align-items: center;
+    a {
+      color: var(--primary-black, #292929);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+    }
+    .hero_link_a {
+      color: var(--primary-orange, #fd9339);
+      font-family: Circe Rounded;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0.14px;
+    }
+  }
+  ///////////////////////////////////
+  .hero_bottom {
+    display: flex;
+    gap: 80px;
+  }
+  .hero_sidebarMenu {
+    padding-top: 20px;
+    padding-left: 251px;
+    .siedMenu_top {
+      width: 280px;
+      display: flex;
+      flex-direction: column;
+      .siedMenu_top_div {
+        padding: 12px 16px;
+        display: flex;
+        align-items: center;
+        border-radius: 6px 6px 0px 0px;
+        background-color: #fbe8bb;
+        a {
+          padding-left: 8px;
+          color: var(--primary-brown, #4e2d2d);
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 22px;
+        }
+      }
+      .siedMenu_top_a {
+        padding: 12px 16px;
+        border: 1px solid #e6e6e6;
+        background: var(--primary-white, #fff);
+        @include d-flex;
+        a {
+          color: var(--primary-black, #292929);
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+        }
+      }
+      .siedMenu_top_a:hover {
+        background-color: #fbe8bb;
+      }
+      .siedMenu_top_aa {
+        border-radius: 0px 0px 6px 6px;
+      }
+    }
+  }
+  //   ---------------------------------------------------
+  .siedMenu_bottom {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 19px;
+    .siedMenu_top_div {
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      border-radius: 6px 6px 0px 0px;
+      background-color: #fbe8bb;
+      a {
+        padding-left: 8px;
+        color: var(--primary-brown, #4e2d2d);
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 22px;
+      }
+    }
+    .siedMenu_top_a {
+      padding: 12px 16px;
+      border: 1px solid #e6e6e6;
+      background: var(--primary-white, #fff);
+      @include d-flex;
+      a {
+        color: var(--primary-black, #292929);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+    }
+    .siedMenu_top_a:hover {
+      background-color: #fbe8bb;
+    }
+    .siedMenu_top_aa {
+      border-radius: 0px 0px 6px 6px;
+    }
+  }
+  //////////////////////////////////////////
+  .hero_vino {
+    padding-right: 250px;
+    img {
+      margin-top: 70px;
+      margin-bottom: 40px;
+    }
+    h1 {
+      color: var(--primary-brown, #4e2d2d);
+      font-family: Circe Rounded;
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 40px;
+      letter-spacing: 0.28px;
+    }
+    .hero_vino_h1 {
+      margin-bottom: 20px;
+    }
+    p {
+      color: var(--primary-black, #292929);
+      font-family: Circe Rounded;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+    }
+    .hero_vino_p3 {
+      margin-top: 20px;
+      width: 800px;
+    }
+    .hero_vino_p5 {
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+    .hero_vino_p6 {
+      width: 750px;
+      margin-bottom: 20px;
+    }
+    .hero_vino_h11 {
+      margin-top: 60px;
+      margin-bottom: 20px;
+      color: var(--primary-brown, #4e2d2d);
+      font-family: Circe Rounded;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 32px;
+      letter-spacing: 0.24px;
+      text-transform: uppercase;
+    }
+    .hero_vin_iserov {
+      display: flex;
+      padding: 30px 40px;
+      margin-bottom: 10px;
+      align-items: center;
+      gap: 20px;
+      border-radius: 5px;
+      border: 1px solid #e7e7e7;
+      background: var(--primary-white, #fff);
+      h1 {
+        color: #fd9339;
+        font-family: Circe Rounded;
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 24px;
+      }
+      p {
+        color: var(--primary-black, #292929);
+        font-family: Circe Rounded;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+      }
+    }
+  }
+}
